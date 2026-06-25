@@ -20,7 +20,7 @@ public class UserServiceTests {
     @Test
     public void testFindByUserName() {
         assertEquals(4, 2 + 2);
-//        assertNotNull(userRepository.findByUserName("ram"));
+        assertNotNull(userRepository.findByUserName("ram"));
         assertTrue(5 > 3);
     }
 
